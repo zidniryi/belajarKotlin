@@ -45,11 +45,37 @@ fun main(args: Array<String>) {
     
     var nameI = "Zidni"
     nameI = "Zidni Ridwan Nulmuarif"
-    print(nameI)
+    println(nameI)
+    
+for (number in 1..5) {
+    println(number)
+	}
+ 
+ val numX = 7
+ val numZ = 7
+    
+    if  (numX > numZ) {
+        print("x Lebih besar dari z")
+    }else if (numX < numZ) {
+        println("x Lebih kecil dari z")
+    }else{
+        println("X dan Z Sama")
+    }
+
     
 }
 
-class Siswa {
+/* class Siswa {
     val namaMurid : String = ""
+    get() = field.toUpperCase()
+    set (value) {
+        field = "Name : $value"
+    }
     
 }
+*/
+
+
+
+
+
